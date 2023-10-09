@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects">Proyectos</a></li>
+            <li><a href="/contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Contactame</h1>
+        <form action="submit">
+            <span>
+                <label for="Name">Name</label>
+                <input type="text" name="Name">
+            </span>
+            <span>
+                <label for="Email">Email</label>
+                <input type="email" name="Email">
+            </span>
+            <span>
+                <label for="Message">Message</label>
+                <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+            </span>
+            <button>Send</button>
+        </form>
+    </div>
+</body>
+</html>
